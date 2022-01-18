@@ -1,0 +1,34 @@
+{
+    "name": "ankith/catalog-graphql",
+    "description": "OOSP to appear on filter via url_key for the feature of Magento",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "authors": [
+        {
+            "name": "Ankith",
+            "email": "ankithg03@gmail.com",
+            "homepage": "https://iamank.000webhostapp.com/",
+            "role": "Technical Support"
+        }
+    ],
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        }
+    ],
+    "require": { },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Ankith\\CatalogGraphQl\\": ""
+        }
+    }
+}
